@@ -9,12 +9,14 @@ class GalleryController extends Controller
 {
     public function index()
     {
-        //
+        //$images = Gallery::all();
+
+        //return view('tasks.create')->with('images', $images);
     }
 
     public function store(Request $request)
     {
-        //return redirect()->route('sagas.index');
+        //return redirect()->route('tasks.index');
     }
 
 }

@@ -24,11 +24,6 @@
 							<textarea class="form-control" name="description" rows="5"></textarea>
 						</div>
 
-						<div class="form-group">
-							<label>Imagen</label>
-							<input type="file" name="image" class="form-control">
-						</div>
-
 						<button type="submit" class="btn btn-primary">Guardar Libro</button>
 					</form>
 				</div>

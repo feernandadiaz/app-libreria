@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        
+                        <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('sagas.index') }}">Sagas</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('catalogo.index') }}">Libros</a></li>
                     </ul>

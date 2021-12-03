@@ -24,6 +24,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 ///----- MIS RUTAS -----///
 Route::resource('/catalogo', App\Http\Controllers\TaskController::class);
 Route::resource('/sagas', App\Http\Controllers\CatalogController::class);
-//Route::resource('/', App\Http\Controllers\GalleryController::class)->except('create', 'destroy', 'show');
+//Route::resource('/images', App\Http\Controllers\GalleryController::class)->except('create', 'destroy', 'show');
 
 Route::get('/cambiar-estado/{id}', 'App\Http\Controllers\TaskController@status')->name('catalogo.status');
